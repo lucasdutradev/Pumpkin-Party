@@ -100,6 +100,10 @@ div.box-header p {
     font-size: 24px;
 }
 
+div.box-header button{
+    margin-bottom: 30px;
+}
+
 div.box-header img{
     width: 480px;
 }

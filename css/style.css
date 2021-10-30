@@ -1,0 +1,268 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.red{ color: #AF0A08; }
+.orange-text{ color: #E98A15; }
+.btn{
+    border: 0;
+    width: 153px;
+    height: 37px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px 10px 0 0;
+}
+.btn-orange{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #E98A15;
+}
+.btn-white{
+    color: #E98A15;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: white;
+}
+.btn-big{
+    font-weight: bolder;
+    font-size: 24px;
+    width: 378px;
+    height: 57px;
+}
+.line{
+    height: 2px;
+    background-color: #C4C4C4;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-big-box{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+section.initial-header{
+    background-image: url("../images/silhouette-3777403_1920.jpg");
+    height: 100%;
+}
+
+div.box-overlay{
+    background-color: #0d1821fa;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    text-align: center;
+    padding: 50px 0;
+}
+
+header img{
+    width: 25px;
+}
+
+header span{
+    font-weight: lighter;
+    margin: 0 5px;
+    font-size: 25px;
+    color: white;
+}
+header span b {
+    margin: 0 5px;
+}
+
+h1{
+    letter-spacing: 3px;
+    padding: 10px 0;
+    font-size: 48px;
+    color: #E98A15;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+section.headline-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.box-header p {
+    max-width: 600px;
+    font-weight: 200;
+    color: white;
+    font-size: 24px;
+}
+
+div.box-header img{
+    width: 480px;
+}
+
+main.calendary{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/Cemitério-Halloween-PNG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.box-overlay-white{
+    background-color: rgba(255, 255, 255, 0.966);
+    width: 100%;
+    height: 100%;
+}
+
+section.initial-main{
+    width: 100%;
+    padding: 50px 0;
+}
+
+section.initial-main h2{
+    border-top: 2px solid #c4c4c4;
+    padding: 20px 0;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: #F15A5C;
+}
+
+section.big-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+div.box-main img{
+    width: 374px;
+}
+
+div.box-main{
+    padding: 0 90px;
+}
+
+div.box-calendary{
+    text-align: center;
+    background-color: #0D1821;
+    width: 309px;
+    height: 233px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+div.box-main-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.head{
+    background-color: #152533;
+    height: 50px;
+    width: 100%;
+}
+div.head p{
+    line-height: 50px;
+    color: #A8A8A8;
+    font-size: 24px;
+}
+div.box-calendary h4{
+    font-weight: bolder;
+    color: #A8A8A8;
+    font-size: 54px;
+    padding: 10px 0;
+}
+
+div.box-calendary h5{
+    font-weight: bolder;
+    color: #F15A5C;
+    font-size: 50px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 296px;
+    background-color: #0D1821;
+}
+
+h3{
+    font-weight: bolder;
+    font-size: 48px;
+    color: white;
+}
+
+.direitos{
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    width: 100%;
+    background-color: #152533;
+    height: 30px;
+}
+
+@media screen and (max-width: 1230px){
+    div.box-main img{
+        width: 200px;
+    }
+    div.box-main{
+        width: 20%;
+    }
+    div.big-box{
+        width: 80%;
+    }
+    div.box-main-flex{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 968px){
+    div.box-main{
+        display: none;
+        width: 0;
+    }
+    div.box-main-flex{
+        margin: 0;
+        justify-content: center;
+        align-content: center;
+    }
+    section.headline-header{
+        flex-direction: column-reverse;
+    }
+    div.box-header{
+        text-align: center;
+    }
+    div.box-header img{
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    .container{
+        max-width: 700px;
+    }
+
+    div.box-header p{
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 600px){
+    div.box-header p{
+        padding: 0 30px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    div.box-header button{
+        margin-bottom: 30px;
+    }
+    .btn-big{
+        width: 80%;
+        height: 50px;
+    }
+}
